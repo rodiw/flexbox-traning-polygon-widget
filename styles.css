@@ -5,17 +5,25 @@ body {
 .container {
     display: flex;
     flex-flow: row wrap;
-    flex-basis: 200px;
 }
 
 .box {
     background-color: #cc0042;
     color: white;
-    flex: 1 1 auto;
+    flex: 1 1 200px;
+    font-family: Helvetica;
+    padding: 20px;
+    transition: 0.1s background;
 }
+.box:hover {
+    background: #ff0052;
+} 
 
 .middle {
     background-color: #b20039;
+}
+h3 {
+    font-size: 30px;
 }
 
 /*@media screen and (max-width: 680px){
