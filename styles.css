@@ -4,4 +4,16 @@ body {
 
 .container {
     display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 350px;
 }
+
+.box {
+    
+}
+
+/*@media screen and (max-width: 680px){
+    .container {
+        flex-flow: column;
+    }
+}*/
